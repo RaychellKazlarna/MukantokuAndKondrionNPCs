@@ -1,0 +1,37 @@
+{
+  "Format": "1.24.0",
+  "CustomLocations": [
+/*map*/	
+    {
+      "Name": "Custom_MukantokuLair",
+      "FromMapFile": "assets/map/mukantoku_lair.tmx"
+    },
+    {
+      "Name": "Custom_ilyAoiMiyake_AshGarden",
+      "FromMapFile": "assets/map/mukantoku_garden.tmx"
+    }
+  ],
+  "Changes": [
+/*data*/
+    {
+      "Action": "Include",
+      "FromFile": "assets/char/char.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/data/data.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/event/event.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/map/map.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/intg/intg.json"
+    }
+  ]
+}

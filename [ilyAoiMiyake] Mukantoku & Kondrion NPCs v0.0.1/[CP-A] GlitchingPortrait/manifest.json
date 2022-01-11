@@ -1,0 +1,20 @@
+{
+    "Name": "Glitching Mukantoku Portrait",
+    "Author": "ilyAoiMiyake",
+    "Version": "1.0",
+    "MinimumApiVersion": "3.0.0",
+    "Description": "Just a tiny CPA pack for one of Mukantoku's portraits. Not required.",
+    "UniqueID": "ilyAoiMiyake.GlitchingMukantoku",
+    "ContentPackFor":
+    {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "spacechase0.ContentPatcherAnimations"
+        },
+        {
+            "UniqueID": "ilyAoiMiyake.SpiritPeople"
+        }
+    ]
+}

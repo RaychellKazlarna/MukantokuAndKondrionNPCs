@@ -1,0 +1,24 @@
+{
+ "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Portraits/Mukantoku",
+      "FromFile": "assets/char/MukantokuP.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Mukantoku",
+      "FromFile": "assets/char/MukantokuC.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Portraits/Kondrion",
+      "FromFile": "assets/char/KondrionP.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Kondrion",
+      "FromFile": "assets/char/KondrionC.png"
+    }
+  ]
+}

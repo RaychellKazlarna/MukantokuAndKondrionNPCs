@@ -1,0 +1,24 @@
+{
+  "Name": "Mukantoku and Kondrion",
+  "Author": "ilyAoiMiyake",
+  "Description": "New NPCs - Mod by ilyAoiMiyake",
+  "Version": "0.0.1",
+  "UniqueID": "ilyAoiMiyake.SpiritPeople",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+        {
+            "UniqueID": "DaisyNiko.Tilesheets"
+        },
+        {
+            "UniqueID": "aedenthorn.ExtraMapLayers"
+        },
+        {
+            "UniqueID": "Esca.CustomNPCExclusions"
+        },
+        {
+            "UniqueID": "SuperAardvark.AntiSocial"
+        }
+    ]
+}

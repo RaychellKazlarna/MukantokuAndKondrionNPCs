@@ -1,0 +1,74 @@
+{
+ "Changes": [
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Mine",
+      "MapTiles": [
+        {
+          "Position": { "X": 24, "Y": 3 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 11 Custom_MukantokuLair 900 2400"
+          }
+        },
+        {
+          "Position": { "X": 24, "Y": 2 },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 11 Custom_MukantokuLair 900 2400"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zKanjiMukantoku",
+      "FromFile": "assets/map/kanji.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMukantokuOutdoors",
+      "FromFile": "assets/map/z_mukantokuoutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zMukantokuIndoors",
+      "FromFile": "assets/map/z_mukantokuindoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zGrayscaleBench",
+      "FromFile": "assets/map/z_gray_bench.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zVanillaMineLava",
+      "FromFile": "assets/map/z_vanilla_mine_lava.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zVanillaMineDarkDangerous",
+      "FromFile": "assets/map/z_vanilla_mine_dark_dangerous.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/zBiomeMerge",
+      "FromFile": "assets/map/z_biome_merge.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromMaps",
+      "Entries": {
+        "MukantokuLair.1": "The skull of Mugen-Kurayami.",
+        "MukantokuLair.2": "Murasaki no Hebi. Unlike the normal statues, this snake wriggles slightly in place.",
+        "MukantokuLair.3": "A minecart. It's hard to tell where it leads.",
+        "MukantokuLair.4": "An anvil.",
+        "MukantokuGarden.1": "Shin'en Doukutsu Ash Garden",
+        "MukantokuGarden.2": "An unknown plant.",
+        "MukantokuGarden.3": "The door is sealed shut.",
+        "MukantokuGarden.4": "A strange little statue. It looks like it would hold a talisman, but the slot is damaged.",
+        "MukantokuGarden.5": "A subterranean crystal structure."
+      }
+    },
+  ]
+}

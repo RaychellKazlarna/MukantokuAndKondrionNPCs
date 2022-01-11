@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="19" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="18">
+ <properties>
+  <property name="ViewportFollowPlayer" type="bool" value="true"/>
+  <property name="Warp" value="9 13 Mine 24 4"/>
+ </properties>
+ <tileset firstgid="1" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="z_cave_daisyextras" tilewidth="16" tileheight="16" tilecount="640" columns="20">
+  <image source="cave_daisyextras.png" width="320" height="512"/>
+ </tileset>
+ <tileset firstgid="677" name="z_vanilla_mine_dark_dangerous" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="z_vanilla_mine_dark_dangerous.png" width="256" height="288"/>
+ </tileset>
+ <tileset firstgid="965" name="z_vanilla_mine_lava" tilewidth="16" tileheight="16" tilecount="320" columns="16">
+  <image source="z_vanilla_mine_lava.png" width="256" height="320"/>
+ </tileset>
+ <tileset firstgid="1285" name="z_mukantokuindoors" tilewidth="16" tileheight="16" tilecount="24" columns="6">
+  <image source="z_mukantokuindoors.png" width="96" height="64"/>
+ </tileset>
+ <layer id="1" name="Back" width="19" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,814,815,816,816,0,0,0,0,814,815,816,816,0,0,0,0,0,
+0,0,895,895,895,895,895,895,731,810,729,895,895,895,895,895,895,0,0,
+0,0,911,911,911,911,911,911,911,911,911,911,911,911,911,915,911,0,0,
+0,0,843,844,844,845,814,933,934,934,934,935,830,816,815,816,816,0,0,
+0,0,859,842,842,861,815,933,934,934,934,935,816,815,847,816,816,0,0,
+0,0,859,858,858,861,815,933,934,934,934,935,816,815,816,816,816,0,0,
+0,0,859,858,858,861,815,933,934,934,934,935,889,902,887,902,887,0,0,
+0,0,814,876,876,877,814,949,950,950,950,951,814,830,814,815,816,0,0,
+0,0,814,814,814,815,816,830,814,831,814,815,816,814,815,0,0,0,0,
+0,0,0,0,0,0,0,0,814,814,815,816,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="Back1" width="19" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1291,1292,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="19" height="14">
+  <data encoding="csv">
+736,736,736,736,736,736,756,736,739,736,740,736,736,772,736,736,739,736,736,
+736,736,740,736,736,736,772,736,736,736,736,736,739,736,719,719,736,740,736,
+736,739,745,762,681,682,682,682,683,762,681,682,682,682,683,787,788,736,736,
+756,736,761,778,697,698,698,698,699,778,697,698,698,698,699,803,804,736,756,
+772,736,777,794,713,714,714,714,715,794,713,714,714,714,715,819,820,736,772,
+736,736,793,810,729,730,730,730,1264,1265,1266,730,730,730,731,835,836,739,736,
+739,736,809,1249,0,0,0,0,1280,1281,1282,0,360,361,0,0,852,736,736,
+736,736,809,0,0,0,0,0,0,0,0,0,0,0,0,0,852,736,736,
+736,756,825,0,0,0,0,0,0,0,0,0,0,0,0,0,868,736,736,
+736,772,841,0,0,0,0,0,1305,1306,1307,0,0,0,0,1252,3221226346,2147484395,740,
+736,736,857,1293,1294,0,0,0,0,0,0,0,0,871,901,0,897,883,736,
+740,736,873,0,0,0,0,0,0,0,0,0,0,0,0,1252,883,736,736,
+736,739,736,890,891,892,891,892,893,0,897,891,892,891,892,898,736,756,736,
+736,736,740,736,736,736,736,736,873,0,883,736,736,736,739,736,736,772,736
+</data>
+ </layer>
+ <layer id="3" name="Front" width="19" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,774,0,0,0,0,0,0,0,0,0,
+0,0,0,1217,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1233,0,0,0,0,0,0,0,0,340,341,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1285,1286,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1297,1298,0,0,0,1299,1300,1301,0,0,0,0,1236,0,0,0,
+0,0,0,1303,1304,0,0,0,0,0,0,0,0,855,885,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1236,897,0,0,
+0,0,0,874,0,0,0,0,0,0,0,0,0,0,0,882,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,891,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="19" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,2,6,8,0,2,6,6,6,4,0,0,0,
+0,0,0,0,0,0,0,7,0,0,0,7,0,0,0,0,0,0,0,
+0,0,0,5,5,6,6,5,0,0,0,7,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,1,6,5,6,4,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="10" name="Back1"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="6" name="TileData" x="144" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.1&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="48" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.2&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="48" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.2&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.2&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="208" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.4&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="208" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.4&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="192" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.4&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="192" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.4&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="224" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.3&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;MukantokuLair.3&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="MagicWarp Custom_ilyAoiMiyake_AshGarden 9 23"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="144" y="144" width="16" height="16">
+   <properties>
+    <property name="NPCPassable" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>

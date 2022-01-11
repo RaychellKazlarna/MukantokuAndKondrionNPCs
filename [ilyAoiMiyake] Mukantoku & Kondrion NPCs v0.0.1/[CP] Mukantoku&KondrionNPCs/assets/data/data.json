@@ -1,0 +1,123 @@
+{
+ "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mukantoku",
+      "FromFile": "assets/data/dialogue_{{Random: 1, 2, 3, 4}}.json",
+      "When": {,
+        "HasFlag|contains=KondrionReturns": false
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Mukantoku",
+      "FromFile": "assets/data/dialogue_dating_{{Random: 1, 2}}.json",
+      "When": {
+        "HasFlag": "KondrionReturns"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/Mukantoku",
+      "FromFile": "assets/data/schedule_single.json",
+      "When": {
+        "HasFlag|contains=KondrionReturns": false
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/Mukantoku",
+      "FromFile": "assets/data/schedule_dating.json",
+      "When": {
+        "HasFlag": "KondrionReturns"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Mukantoku": "adult/rude/outgoing/neutral/male/not-datable/Kondrion/Other/winter 1/Kondrion ''/Custom_MukantokuLair 3 9/Mukantoku",
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Dialogue/Kondrion",
+      "FromFile": "assets/data/dialogue_kondrion.json"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/Kondrion",
+      "FromFile": "assets/data/blank.json",
+      "When": {
+        "HasFlag|contains=KondrionReturns": false
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/schedules/Kondrion",
+      "FromFile": "assets/data/schedule_kondrion.json",
+      "When": {
+        "HasFlag": "KondrionReturns"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Kondrion": "adult/neutral/outgoing/positive/male/not-datable/null/Other/fall 14//Town -100 -100/???",
+      },
+      "When": {
+        "HasFlag|contains=KondrionReturns": false
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+        "Kondrion": "adult/neutral/outgoing/positive/male/not-datable/Mukantoku/Other/fall 14/Mukantoku ''/Custom_MukantokuLair 4 9/Kondrion",
+      },
+      "When": {
+        "HasFlag": "KondrionReturns"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/AntiSocialNPCs",
+      "Entries": {
+        "Kondrion": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CustomNPCExclusions",
+      "Entries": {
+        "Mukantoku": "TownEvent OtherEvent IslandEvent",
+        "Kondrion": "All"
+       }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/NPCGiftTastes",
+      "Entries": {
+        "Mukantoku": "Much thanks, darling!$3/308 386 337 575 570 558 539 287 769 795 798 799 269 814 553 565/Thanks for this, darling.$0/909 910 74 72 -2 -28/What the hell is this?$8//@, hand me that again and I will kill you.$12/-4 -5 -6 -7 -8 -12 -14 -15 -16 -17 -18 -19 -20 -21 -22 -23 -24 -25 -26 -27 -74 -75 -79 -80 -81/Thanks, darling.//",
+        "Kondrion": "Aw yeah, this is my favorite!$1/308 386 337 575 570 558 539 287 769 795 798 799 269 814 553 565/Thanks, big shot.$0/909 910 74 72 -2 -28/Uhh, what do you want me to do with this?$6//Aw hell nah. Don't give me that again.$5//Thanks./-4 -5 -6 -7 -8 -12 -14 -15 -16 -17 -18 -19 -20 -21 -22 -23 -24 -25 -26 -27 -74 -75 -79 -80 -81/"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ConcessionTastes",
+      "Entries": {
+      "Mukantoku": {
+      "Name": "Mukantoku",
+      "LovedTags":["Black Licorice"],
+      "DislikedTags":["Joja Cola", "Sour Slimes", "Apple Slices", "Popcorn", "Chocolate Popcorn",  "Salmon Burger", "Cappuccino Mousse Cake", "Fries", "Nachos", "Jasmine Tea", "Star Cookie", "Ice Cream Sandwich", "Stardrop Sorbet", "Personal Pizza", "Panzanella Salad", "Cotton Candy", "Kale Smoothie", "Salted Peanuts", "Hummus Snack Pack", "JojaCorn", "Jawbreaker", "Rock Candy"],
+      },
+      "Kondrion": {
+      "Name": "Kondrion",
+      "LovedTags":["Black Licorice", "Stardrop Sorbet"],
+      "DislikedTags":["Joja Cola", "Sour Slimes", "Apple Slices", "Popcorn", "Chocolate Popcorn",  "Salmon Burger", "Cappuccino Mousse Cake", "Fries", "Nachos", "Jasmine Tea", "Star Cookie", "Ice Cream Sandwich", "Personal Pizza", "Panzanella Salad", "Cotton Candy", "Kale Smoothie", "Salted Peanuts", "Hummus Snack Pack", "JojaCorn", "Jawbreaker", "Rock Candy"],
+      }
+     }
+    },
+  ]
+}
